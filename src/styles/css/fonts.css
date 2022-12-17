@@ -1,0 +1,31 @@
+/* Copyright (C) 4c65736975. All rights reserved. */
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 900;
+    src: url('chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/fonts/roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/fonts/roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url('chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/fonts/roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/fonts/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    src: url('chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/fonts/roboto/Roboto-Light.ttf');
+}
