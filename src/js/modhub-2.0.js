@@ -32,6 +32,10 @@ const init = () => {
         }
     }
 
+    if (pathName.includes('modHubBEMod.php')) {
+        getLoadedData('modhubAccountMod')
+    }
+
     if (pathName.includes('modHubBERewards.php')) {
         getLoadedData('modhubAccountRewards')
     }
@@ -153,6 +157,16 @@ const getLoadedData = async (content) => {
                 dataRoot.children[1].remove()
                 document.getElementById('modsList').remove()
             })
+
+            break
+
+        case 'modhubAccountMod':
+            await loadUserModsNavbarData(data)
+            .catch((error) => {
+                console.log(error)
+            })
+
+            createModhubAccountRewardsPageInterface(data)
 
             break
 
