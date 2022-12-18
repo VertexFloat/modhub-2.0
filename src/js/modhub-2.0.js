@@ -1093,7 +1093,7 @@ const createUserNavbarSearchBarInnerContainer = (data) => {
 
 const createUserNavbarSearchBarInnerIcon = () => {
     const searchBarInnerIcon = document.createElement('a')
-    const iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/search.svg'
+    const iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/search.svg'
 
     searchBarInnerIcon.classList = 'modhub-2-0-user-navbar-search-inner-icon'
 
@@ -1253,7 +1253,7 @@ const createUserNavbarLoginButton = (data) => {
 
 const createUserNavbarLoginButtonIcon = () => {
     const userNavbarLoginBtnIcon = document.createElement('div')
-    const iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/sign-in-alt.svg'
+    const iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/sign-in-alt.svg'
 
     userNavbarLoginBtnIcon.classList = 'modhub-2-0-user-navbar-login-button-icon'
 
@@ -1304,7 +1304,7 @@ const handleMouseLeaveDropMenuArea = (e) => {
 
 const createUserNavbarMenuButtonIcon = () => {
     const userNavbarMenuBtnIcon = document.createElement('div')
-    const iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/menu-burger.svg'
+    const iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/menu-burger.svg'
 
     userNavbarMenuBtnIcon.classList = 'modhub-2-0-user-navbar-login-button-icon'
 
@@ -1486,12 +1486,12 @@ const createFeaturedModsItemHeaderTitleContainer = (data, index) => {
 
 const createFeaturedModsItemHeaderTitleIcon = (data) => {
     const featuredModItemHeaderTitleIcon = document.createElement('img')
-    let iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/favorites.png'
+    let iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/favorites.png'
 
     featuredModItemHeaderTitleIcon.classList = 'modhub-2-0-mods-items-item-featured-header-title-icon'
 
     if (data > 0) {
-        iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/badge.png'
+        iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/badge.png'
 
         featuredModItemHeaderTitleIcon.classList = 'modhub-2-0-mods-items-item-featured-header-title-icon-smaller'
     }
@@ -1921,7 +1921,7 @@ const createModhubAccountNavbarLogoutButton = (data) => {
 
 const createModhubAccountNavbarLogoutButtonIcon = () => {
     const navbarButtonIcon = document.createElement('div')
-    const iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/sign-in-alt.svg'
+    const iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/sign-in-alt.svg'
 
     navbarButtonIcon.classList = 'modhub-2-0-account-navbar-button-icon'
 
@@ -1985,7 +1985,7 @@ const createModhubAccountSearchInputContainer = () => {
 
 const createModhubAccountSearchIcon = () => {
     const searchIcon = document.createElement('div')
-    const iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/search.svg'
+    const iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/search.svg'
 
     searchIcon.classList = 'modhub-2-0-account-mods-filters-search-icon'
 
@@ -2077,7 +2077,7 @@ const createModhubAccountFiltersButton = () => {
 
     filterButton.classList = 'modhub-2-0-account-mods-filters-button'
 
-    const iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/filter.svg'
+    const iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/filter.svg'
 
     fetch((iconUrl))
     .then((response) => response.text())
@@ -2237,7 +2237,7 @@ const createModhubAccountFiltersOverlayFilterIcon = () => {
 
 const createModhubAccountFiltersOverlayFilterChildIcon = () => {
     const filterChildIcon = document.createElement('div')
-    const iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/angle-right.svg'
+    const iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/angle-right.svg'
 
     fetch((iconUrl))
     .then((response) => response.text())
@@ -2316,7 +2316,7 @@ const createModhubAccountActiveFilterInnerContainer = (filter) => {
 
 const createModhubAccountActiveFilterIconContainer = () => {
     const activeFilterIconContainer = document.createElement('div')
-    const iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/check.svg'
+    const iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/check.svg'
 
     activeFilterIconContainer.classList = 'modhub-2-0-account-mods-filters-active-filter-icon-container'
 
@@ -2602,7 +2602,7 @@ const createPaginationButton = (data, isNext) => {
 
 const createPaginationButtonIcon = (isNext) => {
     const paginationButtonIcon = document.createElement('div')
-    const iconUrl = 'chrome-extension://jphpgoknkogpdmkbjlimpnegaljalddk/src/resources/icons/angle-right.svg'
+    const iconUrl = 'chrome-extension://--extension-id--/src/resources/icons/angle-right.svg'
 
     paginationButtonIcon.classList = 'modhub-2-0-pagination-button-icon'
 
