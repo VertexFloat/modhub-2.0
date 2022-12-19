@@ -50,7 +50,7 @@
 
 ## About the project
 
-<img src='screenshots/screenShot_01.png' alt='screenshot'>
+<img src='screenshots/screenshot_01.png' alt='screenshot'>
 
 As a farming simulator modmaker, I often use the [modhub](https://www.farming-simulator.com/mods.php?lang=pl&country=pl) site. I have become very bored with the look of it. I also missed the ability to filter the modifications I sent so that, for example, I could hide modifications from the previous version of the game. That's why I decided to make a browser extension that will change the appearance of [modhub](https://www.farming-simulator.com/mods.php?lang=pl&country=pl) and add missing functionality. If you feel that you are bored of look of this site or you want filtering and searching features like me. Then this extension is perfect for you. Hope you will like it and let me know what I should change or improve :upside_down_face:
 
@@ -97,9 +97,9 @@ git clone https://github.com/4c65736975/Modhub-2.0
 
 ## Usage
 
-<img src='screenshots/screenShot_02.png' alt='screenshot'>
-<img src='screenshots/screenShot_03.png' alt='screenshot'>
-<img src='screenshots/screenShot_04.png' alt='screenshot'>
+<img src='screenshots/screenshot_02.png' alt='screenshot'>
+<img src='screenshots/screenshot_03.png' alt='screenshot'>
+<img src='screenshots/screenshot_04.png' alt='screenshot'>
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
 
