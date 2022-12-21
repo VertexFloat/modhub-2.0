@@ -75,7 +75,7 @@ Don't forget to give the project a star! Thanks again!
 
 If you want to install latest official version, you can download it like other extensions.
 <br/>
-Here you have direct link [Modhub 2.0 (Edge)](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home) .
+Here you have direct link [Modhub 2.0 (Edge)](https://microsoftedge.microsoft.com/addons/detail/modhub-20/mopmenaafoidbnpkpgmbkbhjmoocaafg) .
 
 ### Prerequisites
 
