@@ -105,7 +105,7 @@ git clone https://github.com/4c65736975/Modhub-2.0
 
 ## License
 
-Distributed under the GPL-3.0 license. See [LICENSE.md](https://github.com/4c65736975/Modhub-2.0/blob/main/LICENSE.md) for more information.
+Distributed under the GPL-3.0 license. See [LICENSE](https://github.com/4c65736975/Modhub-2.0/blob/main/LICENSE.md) for more information.
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
 
