@@ -13,18 +13,13 @@
   "permissions": ["scripting", "activeTab"],
   "content_scripts": [
     {
-      "js" : ["index.js"],
-      "matches": ["https://*.farming-simulator.com/*"]
+      "js" : ["assets/index.js"],
+      "css" : ["assets/index.css"],
+      "matches": ["https://*.farming-simulator.com/*"],
+      "run_at": "document_start"
     }
   ],
   "action": {
-
   },
-  "background": {
-    "service_worker": "background.js"
-  },
-  "web_accessible_resources": [{
-    "matches": ["<all_urls>"]
-  }],
   "homepage_url": "https://github.com/4c65736975"
 }
